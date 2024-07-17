@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  background-color: #959595;
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+a {
+  text-decoration: underline;
+  color: #000;
+}
+
+a:hover {
+  color: #007bff;
+}
+
+.about-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.about-side {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-left-side {
+  width: 60%;
+}
+
+.about-right-side {
+  width: 40%;
+}
+
+.about-about-title {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: translateX(-50%);
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  width: 90%;
+}
+
+.about-about-text {
+  position: absolute;
+  top: 30.5%;
+  left: 30%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  width: 50%;
+}
+
+.about-contact-title {
+  position: absolute;
+  top: 70%;
+  left: 17%;
+  transform: translateX(-50%);
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  width: 90%;
+}
+
+.about-contact-text {
+  position: absolute;
+  top: 77.5%;
+  left: 30%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+  width: 50%;
+}
+
+.about-mission-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.about-mission-side {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-mission-left-side {
+  width: 60%;
+}
+
+.about-mission-right-side {
+  width: 40%;
+}

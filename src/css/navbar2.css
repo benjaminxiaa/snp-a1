@@ -1,0 +1,22 @@
+.navbar2-container {
+  z-index: 1000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* outline: 1px red solid; */
+  position: fixed;
+  /* width: 49%; */
+  /* height: 80px; */
+  left: 3%;
+  top: 20px;
+  /* padding: 0 50px 0 0; */
+}
+
+.navbar2-links {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  font-size: 2rem;
+  margin-left: 0;
+  margin-right: 0;
+}
